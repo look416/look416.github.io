@@ -1,3 +1,18 @@
+body{
+  background: url("../img/body-background.png");
+  background-repeat: repeat-x;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.nav-item{
+  color:#3d2b06;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .parallax-window {
     min-height: 400px;
     background: transparent;
@@ -9,4 +24,74 @@
 
 #parallax1{
   text-align: center;
+}
+
+#topbar-left{
+  margin-left:4%; margin-right:-4%; display:inline-block; margin-bottom:1%;
+}
+
+#topbar-right{
+  text-align:left; margin-left:-4%; display:inline-block;
+}
+
+#bottle-first{
+  position: relative;
+}
+
+#description{
+  text-align:center; 
+  width:50%; 
+  margin-top:0; 
+  padding-top:20px; 
+  margin-left:auto; 
+  margin-right:auto;
+  color: white;
+  font-size: 17px;
+}
+
+
+#nav-bar{
+  background: url("../img/navbar.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  text-transform: uppercase;
+  overflow: auto;
+}
+
+#nav-bar p{
+  margin-top:0;
+}
+
+#logo{
+  margin-top: 10px;
+  width: 40%;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.left-align{
+  text-align: left;
+}
+
+.right-align{
+  text-align: right;
+}
+
+.nav-item{
+  
+  padding: 23px;
+  padding-bottom: 38px;
+}
+
+.nav-item img{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
 }
