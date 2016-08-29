@@ -6,7 +6,7 @@ $("#aboutus").click(function(){
 });
 
 $("#product").click(function(){
-	$("#product-section")
+	$("#product-anchor")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 
