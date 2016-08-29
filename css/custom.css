@@ -34,6 +34,24 @@ a.nav-item{
   margin-top: 5%;
 }
 
+#bottle-center{
+  display: block;
+  position: absolute;
+  width: 25%;
+  left: 51%;
+  transform: translate(-50%, 0);
+  top: 30%;
+  opacity: 0;
+}
+
+#bottle-text{
+  position: absolute;
+  width: 40%;
+  left: 51%;
+  transform: translate(-50%, 0);
+  top: 63%;
+}
+
 #parallax1{
   text-align: center;
 }

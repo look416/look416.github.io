@@ -27,28 +27,30 @@
         <!-- header/navbar -->
         <div id="nav-bar" style="text-align:center">
                 <div id="topbar-left" class="hide-on-med-and-down">
-                    <a href="#" class="nav-item right-align float-right">About us <img src="img/pointer.png"/></a>
-                    <a href="#" class="nav-item right-align float-right">Products <img src="img/pointer.png"/></a>
+                    <a id="aboutus" href="javascript:;" class="nav-item right-align float-right">About us <img src="img/pointer.png"/></a>
+                    <a id="product" href="javascrpt:;" class="nav-item right-align float-right">Products <img src="img/pointer.png"/></a>
                 </div>
                 <img id="logo" src="img/logo.png" class="img-responsive" />
                 <div id="topbar-right" class="hide-on-med-and-down">
-                    <a href="#" class="nav-item left-align float-left">Contest <img src="img/pointer.png"/></p>
-                    <a href="#" class="nav-item left-align float-left">Contact Us <img src="img/pointer.png"/></a>
+                    <a id="contest" href="javscript:;" class="nav-item left-align float-left">Contest <img src="img/pointer.png"/></p>
+                    <a id="contactus" href="javascript:;" class="nav-item left-align float-left">Contact Us <img src="img/pointer.png"/></a>
                 </div>
             </div>
         
             
 
             <div id="bottle-first">
-                <img id="main-background" src="img/eygpt-background.png" class="responsive-img">
+                <img id="main-background" src="img/eygpt-background-2.png" class="responsive-img">
+                <img id="bottle-center" data-0="opacity:0" data-300="opacity:1"  src="img/bottle-notext.png" class="responsive-img">
+                <img id="bottle-text" data-0="opacity:0" data-800="opacity:1" src="img/sparkling.png" class="responsive-img">
             </div>
             
             
-            <div id="parallax1" class="parallax-window" data-parallax="scroll" data-image-src="img/parallax1.png">
-                <p id="description">
+            <div style="background:url('img/parallax1.png'); text-align:center;">
+                <p id="description" data-900="opacity:0" data-1200="opacity:1">
                     Perrier is a natural sparkling mineral water that is well known throughout the world. Famous for its elegantly-shaped green bottle, Perrier is the ultimate refreshment to quench all thirsts.In 1863, the PERRIER saga began: bubbles taken from a French spring were bottled, ready to satisfy people’s thirst. In 1898,  Dr. Louis Perrier became the owner of the spring, which would later take his illustrious name. 
                 </p>
-                <img id="detail-button" src="img/detail-button.png" class="responsive-img" >
+                <img id="detail-button" data-900="opacity:0" data-1300="opacity:1" src="img/detail-button.png" class="responsive-img" >
                 <img id="img1" class="img-bottle responsive-img" src="img/bottle1.png">
                 <img id="img2" class="img-bottle responsive-img" src="img/bottle2.png">
             </div>
@@ -61,11 +63,11 @@
             </div>
 
             <div>
-                <img src="img/info.png" class="responsive-img"/>
+                <img id="img3" src="img/info.png" class="responsive-img"/>
             </div>
 
             <div>
-                <img src="img/gallery.png" class="responsive-img"/>
+                <img id="img4" src="img/gallery.png" class="responsive-img"/>
             </div>
 
             <footer>
@@ -86,9 +88,13 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/vendor/parallax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
         
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
