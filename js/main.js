@@ -1,12 +1,12 @@
 var s = skrollr.init();
 
 $("#aboutus").click(function(){
-	$("#about-section")
+	$("#detail-button")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 
 $("#product").click(function(){
-	$("#img2")
+	$("#about-3")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 
