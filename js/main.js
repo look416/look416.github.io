@@ -1,7 +1,7 @@
 var s = skrollr.init();
 
 $("#aboutus").click(function(){
-	$("#img1")
+	$("#about-section")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 

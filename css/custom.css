@@ -52,6 +52,10 @@ a.nav-item{
   top: 63%;
 }
 
+#main-background{
+  margin-top:15%;
+}
+
 #parallax1{
   text-align: center;
 }
@@ -66,6 +70,32 @@ a.nav-item{
 
 #bottle-first{
   position: relative;
+}
+
+#about-title{
+  position:absolute;
+  left: 51%;
+  transform: translate(-50%, 0);
+  top: 11%
+}
+
+#about-background{
+  margin-top:1%; margin-left:5%; margin-right:5%; width:90%; 
+}
+
+#about-1{
+  position: absolute;
+  top: 30%;
+}
+
+#about-2{
+  position: absolute;
+  top: 50%;
+}
+
+#about-3{
+  position: absolute;
+  top: 58%;
 }
 
 #description{
@@ -115,6 +145,10 @@ a.nav-item{
 
 .right-align{
   text-align: right;
+}
+
+.position-relative{
+  position:relative;
 }
 
 .nav-item{
