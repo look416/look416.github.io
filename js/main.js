@@ -5,6 +5,7 @@ var description = {
 };
 
 var s = skrollr.init({
+	forceHeight: false,
 	beforerender: function(obj){
 		if(animate){
 			return false;
@@ -13,22 +14,22 @@ var s = skrollr.init({
 });
 
 $("#aboutus").click(function(){
-	$("#detail-button")
+	$("#about")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 
 $("#product").click(function(){
-	$("#product-anchor")
+	$("#product-a")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 
 $("#contest").click(function(){
-	$("#img3")
+	$("#contest-a")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 
 $("#contactus").click(function(){
-	$("#img4")
+	$("#contest-a")
     .velocity("scroll", { duration: 1500, easing: "ease-in" })
 });
 
