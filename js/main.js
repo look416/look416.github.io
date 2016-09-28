@@ -132,12 +132,10 @@ function viewDetail(bottle){
 }
 
 $(".love").mouseenter(function(){
-	console.log("over");
 	$(this).css("opacity", 1);
 });
 
 $(".love").mouseleave(function(){
-	console.log("leave");
 	$(this).css("opacity", $(this).data("visible"));
 });
 
