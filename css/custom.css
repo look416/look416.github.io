@@ -64,7 +64,7 @@ a{
 
 a.nav-item{
   color:#3d2b06;
-  font-size: 8px;
+  font-size: 12px;
   font-family: linkFont;
 
 }
@@ -243,10 +243,33 @@ a.nav-item{
 }
 
 .detail-header{
-  font-size: 18.62px;
+  font-size: 17.62px;
   font-family: footerFont;
   text-align: center;
   color: #1c291f !important;
+  width: 95% !important;
+  display: inline-block !important; 
+}
+
+.separator-vertical{
+  display: inline-block;
+  height: 30px;
+  margin-top: 4px;
+  background-color: #1c291f;
+  width: 2px;
+  position: relative;
+  top: 15%;
+  transform: translateY(-50%);
+
+}
+
+#header-css{
+  padding-left: 20px:
+  padding-right: 20px; 
+}
+
+.detail{
+  padding: 20px !important;
 }
 
 .bottle-label{
@@ -268,7 +291,7 @@ a.nav-item{
 }
 
 #extra{
-  background-color: white; width: 403px; position: absolute; top:190px; right: 25px; opacity: 0;
+  background-color: white; width: 403px; position: absolute; top:190px; right: 10px; opacity: 0;
 }
 
 #nav-bar{
